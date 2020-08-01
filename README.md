@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This simple project can facilitate working with forms in React.js. <br />
+It's comprised of one simple ***custom hook*** which handles updating values of various types of HTML form components (single select, textarea, radio buttons, all types of inputs except *[type=file]*). Additionally, there is a ***data validator***, which verifies that:
+1. all of the required fields are populated; 
+2. data types are entered correctly;
+3. numeric values are set within a range;
+4. text and lists are neither too long neither too short;
+
+*Validator will support custom rules in the future as well.*
+
+These utils can be used together or separately and both are agnostic in terms of state management libraries. <br/>
+Concrete integration example can be found in the code itself.
+
 ## Available Scripts
 
 In the project directory, you can run:
